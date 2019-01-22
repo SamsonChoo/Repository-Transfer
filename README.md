@@ -10,7 +10,7 @@ This is a shell script I wrote for my Introduction to Computer Networks class in
 This script changes the remote url of the cloned old repository and pushes it to the new repository, so you get your commit history maintained instead of losing them.
  
 ## Environment
-This was written and tested on Ubuntu, but should also work on the windows terminal.
+This was written and tested on Ubuntu, but should also work on other terminals including Git Bash.
 This script assumes you have git and curl installed.
 
 ## How to Use
