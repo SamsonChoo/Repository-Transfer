@@ -16,5 +16,5 @@ This script assumes you have git and curl installed.
 ## How to Use
 ```git clone https://github.com/SamsonChoo/Repository-Transfer```  
 ```cd Repository-Transfer```  
-```sh gitoperations.sh <GITHUB_USERNAME>```  
+```sh gitoperations.sh <GITHUB_USERNAME>```  or ```./gitoperations.sh <GITHUB_USERNAME>```  
 Follow the instructions on the screen. You would need to first enter your github password (to create the repository on Github), then your username and password again (to upload the local repository)
