@@ -7,6 +7,8 @@ This is a shell script I wrote for my Introduction to Computer Networks class in
  * Uploading the old repositories to the new repositories
  * Clean up on the local computer (delete all cloned repositories locally)
  
+This script changes the remote url of the cloned old repository and pushes it to the new repository, so you get your commit history maintained instead of losing them.
+ 
 ## Environment
 This was written and tested on Ubuntu, but should also work on the windows terminal.
 This script assumes you have git and curl installed.
