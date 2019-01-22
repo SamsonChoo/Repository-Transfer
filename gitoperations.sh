@@ -4,9 +4,9 @@ do
 curl -u $1 https://api.github.com/user/repos -d "{\"name\":\"nctuLab$i\"}"
 mkdir temp
 cd temp
-lab = "https://github.com/nctucn/lab$i-$1"
+lab="https://github.com/nctucn/lab$i-$1"
 git clone $lab
-folder = "lab$i-$1"
+folder="lab$i-$1"
 cd $folder
 git remote set-url origin https://github.com/$1/nctuLab$i
 git add .
