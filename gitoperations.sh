@@ -1,5 +1,5 @@
 chmod +x .
-for i in 123
+for i in 1 2 3
 do
 curl -u $1 https://api.github.com/user/repos -d "{\"name\":\"nctuLab$i\"}"
 mkdir temp
