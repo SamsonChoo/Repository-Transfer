@@ -10,11 +10,12 @@ This is a shell script I wrote for my Introduction to Computer Networks class in
 This script changes the remote url of the cloned old repository and pushes it to the new repository, so you get your commit history maintained instead of losing them.
  
 ## Environment
-This was written and tested on Ubuntu, but should also work on other terminals including Git Bash.
+This was originally developed on Ubuntu, but tested also with Bash and Git Bash on Mac and Windows.
 This script assumes you have git and curl installed.
 
 ## How to Use
 ```git clone https://github.com/SamsonChoo/Repository-Transfer```  
 ```cd Repository-Transfer```  
-```sh gitoperations.sh <GITHUB_USERNAME>```  or ```./gitoperations.sh <GITHUB_USERNAME>```  
-Follow the instructions on the screen. You would need to first enter your github password (to create the repository on Github), then your username and password again (to upload the local repository)
+```./gitoperations.sh <GITHUB_USERNAME>```  
+Follow the instructions on the screen. You would need to first enter your github password (to create the repository on Github), then your username and password again (to upload the local repository)  
+After you are done, verify that the repositories have indeed been transferred on your github account, then you may delete this repository on your local computer.
